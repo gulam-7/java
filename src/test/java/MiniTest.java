@@ -1,4 +1,4 @@
-package com.example;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +15,9 @@ public class MiniTest {
         WebDriver driver = new ChromeDriver();
         
         try {
+
             // Open Google
+
             driver.get("https://www.google.com");
             
             // Print the page title to console
@@ -24,6 +26,7 @@ public class MiniTest {
         } finally {
             // Close browser
             driver.quit();
-        }
-    }
+        }
+    }
+
 }
